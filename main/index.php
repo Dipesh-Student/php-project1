@@ -11,6 +11,13 @@
         <?php 
         include("function/basicmath.php");
         echo basicmath::badd(10,20);
+        echo basicmath::palindrome(2002);
+        if(basicmath::palindrome(20023)){
+            echo "is palindrome";
+        }
+        else{
+            echo "not a palindrome";
+        }
         ?>
     </div>
 </body>
